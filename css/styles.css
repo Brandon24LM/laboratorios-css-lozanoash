@@ -1,8 +1,52 @@
+@import url('https://fonts.googleapis.com/css2?family=Manufacturing+Consent&family=UnifrakturMaguntia&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=UnifrakturMaguntia&display=swap');
 /* Los estilos se aplican a todo el documento */
 body {
-    background: -o-linear-gradient(135deg,) ;
+    background-image: 
+    linear-gradient(rgba(29, 29, 28, 0.377), rgb(12, 30, 56)),
+    url("../assets/images/fondo.jpg");
+    background-size: cover;
+    
 }
-.ab
-.social.net{
-    width: 48px;
+
+.ash-fot{
+    border-radius: 70%;
+    box-shadow: 0 0 10px rgb(166, 101, 219);
+}
+
+
+
+header {
+  font-family: "UnifrakturMaguntia", cursive;
+  font-weight: 400;
+  font-style: normal;
+}
+
+
+h2 {
+    font-family: "UnifrakturMaguntia", cursive;
+    font-weight: 400;
+    font-style: normal;
+}
+
+
+
+.social-icon {
+    width: 35px;
+    height: 35px;
+}
+
+
+.cube-text{
+    color: aliceblue;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    position: relative;
+    justify-content: center;
+    margin: auto;
+    width: 700px;
+    height: 200px;
+    border-radius: 50px;
+    background: linear-gradient(rgba(255, 29, 29, 0.534), rgb(0,0,0))
 }
