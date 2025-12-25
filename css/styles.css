@@ -28,7 +28,9 @@ header {
 }
 
 
+
 h2 {
+    padding: 24px;
     text-align: center;
     font-family: "UnifrakturMaguntia", cursive;
     font-weight: 400;
@@ -62,7 +64,6 @@ padding: 24px;
 
 section{
     background: linear-gradient(rgba(255, 29, 29, 0.534), rgb(0,0,0));
-    
     backdrop-filter: blur(6px);
     color: rgb(255, 255, 255);
     padding: 24px;
@@ -73,5 +74,5 @@ section{
 }
 
 footer{
-    color: antiquewhite;
+    color: rgb(255, 255, 255);
 }
