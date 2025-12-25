@@ -10,43 +10,68 @@ body {
 }
 
 .ash-fot{
+    display: block;
+  margin: 0 auto; 
     border-radius: 70%;
-    box-shadow: 0 0 10px rgb(166, 101, 219);
+    box-shadow: 0 0 10px rgb(255, 255, 255);
 }
 
 
 
 header {
+  text-align: center;
   font-family: "UnifrakturMaguntia", cursive;
+  font-size: 30px;
   font-weight: 400;
   font-style: normal;
+  
 }
 
 
 h2 {
+    text-align: center;
     font-family: "UnifrakturMaguntia", cursive;
     font-weight: 400;
+    font-size: 30px;
     font-style: normal;
+    line-height: 10%;
 }
-
-
 
 .social-icon {
-    width: 35px;
-    height: 35px;
+    display: block;
+    margin: 0 auto;
+  list-style: none;
 }
 
 
-.cube-text{
-    color: aliceblue;
-    display: flex;
-    align-items: center;
-    flex-direction: column;
-    position: relative;
-    justify-content: center;
-    margin: auto;
-    width: 700px;
-    height: 200px;
-    border-radius: 50px;
-    background: linear-gradient(rgba(255, 29, 29, 0.534), rgb(0,0,0))
+.social-icon li{
+padding: 24px;
+  display: inline-block;
+  margin: 0 50px;
+
+}
+
+
+.social-icon img{
+  width: 48px;
+}
+
+
+
+
+
+section{
+    background: linear-gradient(rgba(255, 29, 29, 0.534), rgb(0,0,0));
+    
+    backdrop-filter: blur(6px);
+    color: rgb(255, 255, 255);
+    padding: 24px;
+    margin: 32px auto;
+    max-width: 900px;
+    box-shadow: 0 10px 25px rgb(97, 2, 2);
+    
+}
+
+footer{
+    color: antiquewhite;
 }
